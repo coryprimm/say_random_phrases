@@ -13,7 +13,6 @@ main_script="./say_random_phrases.sh"
 # PID file to store the process ID of the main script
 pid_file="/tmp/say_random_phrases.pid"
 
-
 # Main function to handle command-line arguments
 main() {
     validate_arguments "$@"  # Validate command-line arguments
