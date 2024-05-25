@@ -2,16 +2,9 @@
 
 # Controller Script for Managing the Main Script
 
-# Import error messages
 source functions/error_messages.sh
-
-# Import validation functions
 source functions/validation_functions.sh
-
-# Import signal handlers
 source functions/signal_handlers.sh
-
-# Source the script functions
 source functions/main_script_functions.sh
 
 # Path to the main script
