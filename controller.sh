@@ -3,16 +3,16 @@
 # Controller Script for Managing the Main Script
 
 # Import error messages
-source error_messages.sh
+source functions/error_messages.sh
 
 # Import validation functions
-source validation_functions.sh
+source functions/validation_functions.sh
 
 # Import signal handlers
-source signal_handlers.sh
+source functions/signal_handlers.sh
 
 # Source the script functions
-source main_script_functions.sh
+source functions/main_script_functions.sh
 
 # Path to the main script
 main_script="./say_random_phrases.sh"
