@@ -1,3 +1,7 @@
+# main_script_functions.sh
+
+#!/bin/bash
+
 # Function to check if the main script is already running
 is_running() {
     if [ -f "$pid_file" ]; then
