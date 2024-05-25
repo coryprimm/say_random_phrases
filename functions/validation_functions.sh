@@ -1,5 +1,3 @@
-# validation_functions.sh
-
 #!/bin/bash
 
 # Function to validate the interval value

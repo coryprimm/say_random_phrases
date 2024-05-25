@@ -1,5 +1,3 @@
-#say_random_phrases.sh
-
 #!/bin/bash
 
 # Check for required dependencies

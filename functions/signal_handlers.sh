@@ -1,5 +1,3 @@
-# signal_handlers.sh
-
 #!/bin/bash
 
 # Function to handle SIGINT signal (Ctrl+C)

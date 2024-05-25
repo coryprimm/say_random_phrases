@@ -1,5 +1,3 @@
-# error_messages.sh
-
 #!/bin/bash
 
 # Define error messages
