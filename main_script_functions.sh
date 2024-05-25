@@ -41,3 +41,11 @@ stop_script() {
     rm -f "$pid_file"
     echo "Script stopped successfully."
 }
+
+# Function to print usage instructions
+print_usage() {
+    echo "$ERR_USAGE"
+    echo "   start: Start the main script."
+    echo "   stop: Stop the main script if it's running."
+    echo "   interval: Optional. Specify the interval in seconds. Default is 10."
+}
